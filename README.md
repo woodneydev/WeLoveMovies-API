@@ -94,7 +94,6 @@ The response from the server will look like the following:
       "description": "Chihiro ...",
       "image_url": "https://imdb-api.com/..."
     }
-    // ...
   ]
 }
 ```
@@ -125,7 +124,7 @@ The response from the server for a request to `/movies/1/theaters` should look l
       "is_showing": true,
       "movie_id": 1
     }
-    // ...
+   
   ]
 }
 ```
@@ -154,7 +153,7 @@ The response from the server for a request to `/movies/1/reviews` should look li
         "updated_at": "2021-02-23T20:48:13.308Z"
       }
     }
-    // ...
+   
   ]
 }
 ```
@@ -231,10 +230,10 @@ The response from the server should look like the following.
           "is_showing": false,
           "theater_id": 1
         }
-        // ...
+     
       ]
     }
-    // ...
+   
   ]
 }
 ```
